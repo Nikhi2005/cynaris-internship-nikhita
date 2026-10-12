@@ -57,3 +57,10 @@ The project uses local CSV data for statistical practice. If a public dataset is
 ## Status
 
 Work completed as part of the W1D1 Python for ML task. The code is subject to review and improvement based on mentor feedback.
+
+## Validation and Review
+
+- Created 1D, 2D, and 3D NumPy arrays and checked their shapes.
+- Practiced broadcasting, vectorized operations, and matrix multiplication.
+- Calculated mean, standard deviation, and correlation using CSV data.
+- Reviewed the code with CIA and checked suggested improvements.
