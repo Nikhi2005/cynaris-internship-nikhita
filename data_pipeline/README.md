@@ -50,3 +50,8 @@ The pipeline displays dataset information and missing-value counts, then generat
 ## Current Cleaning Logic
 
 The pipeline removes rows with missing dates and converts valid dates to datetime format. Other missing values are currently reported during inspection but are not removed or imputed.
+
+## Validation
+
+The pipeline was tested successfully with the supplied rainfall dataset.
+It loaded 2,201 rows and 21 columns and generated both raw and cleaned CSV artifacts.
