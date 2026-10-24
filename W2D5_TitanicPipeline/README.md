@@ -74,3 +74,13 @@ The tests verify:
 ## 8. Scope
 
 This project focuses on data preprocessing and exporting ML-ready features. It does not train or evaluate a classification model.
+
+## 9. Reproducibility and Validation
+
+- Random seed: 42 for a reproducible train/test split.
+- Test split: 20% of the dataset.
+- Training split: 80% of the dataset.
+- Missing numerical values: median imputation.
+- Missing categorical values: most-frequent imputation.
+- Data leakage prevention: preprocessing is fitted on training data only.
+- Validation: four automated tests passed using pytest.
