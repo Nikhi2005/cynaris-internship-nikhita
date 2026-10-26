@@ -1,8 +1,0 @@
-
-langgraph==1.2.15
-langchain-core==1.6.10
-langchain-protocol==0.0.19
-langgraph-checkpoint==4.3.0
-langgraph-prebuilt==1.1.0
-langgraph-sdk==0.4.7
-pandas==3.0.6
