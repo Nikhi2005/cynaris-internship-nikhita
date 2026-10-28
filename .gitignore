@@ -5,3 +5,6 @@ __pycache__/
 
 /data/
 .env
+# Local MLflow tracking data
+mlflow.db
+mlruns/
