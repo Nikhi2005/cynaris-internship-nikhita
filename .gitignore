@@ -8,3 +8,5 @@ __pycache__/
 # Local MLflow tracking data
 mlflow.db
 mlruns/
+
+.pytest_cache/
