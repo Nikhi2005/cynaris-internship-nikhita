@@ -1,0 +1,4 @@
+Metric,Before Reweighing,After Reweighing
+Disparate Impact,0.34302917576255376,0.6126736920423727
+Statistical Parity Difference,-0.170336421431379,-0.0833406502620877
+Equal Opportunity Difference,-0.06595922871528093,0.15940409683426449
