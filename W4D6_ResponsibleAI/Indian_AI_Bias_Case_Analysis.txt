@@ -1,0 +1,56 @@
+INDIAN AI BIAS CASE STUDY
+
+Title:
+Cinderella's Shoe Won't Fit Soundarya: An Audit of Facial
+Processing Tools on Indian Faces.
+
+Researchers:
+Gaurav Jain and Smriti Parsheera.
+
+Case Summary:
+
+The study examined four commercial facial-processing tools
+using 32,184 images of Indian electoral candidates obtained
+from publicly available Election Commission of India data.
+
+The audit identified differences in gender-classification
+errors between male and female faces. Female faces had
+higher classification error rates than male faces, with the
+highest reported female error rate reaching 14.68%.
+
+This case demonstrates how facial-processing systems
+developed or evaluated using insufficiently representative
+data can perform unevenly across demographic groups.
+Such differences can create unfair outcomes when facial
+AI is used in public services, identity systems, or other
+important applications.
+
+Root Cause and Risk:
+
+The audit highlights unequal performance across Indian
+gender groups. Limited representation and insufficient
+subgroup testing are possible contributing risks; the
+reported error difference alone does not establish one
+specific technical cause.
+
+Proposed Improvements:
+
+1. Use diverse and representative Indian facial datasets.
+2. Evaluate accuracy separately across gender groups.
+3. Conduct independent bias audits before deployment.
+4. Improve transparency about model limitations.
+5. Monitor subgroup performance after deployment.
+
+Conclusion:
+
+AI systems should be evaluated across the populations
+they are intended to serve. Accuracy alone is insufficient;
+fairness, transparency, and accountability are also essential.
+
+Reference:
+Jain, G. and Parsheera, S.
+"Cinderella's Shoe Won't Fit Soundarya: An Audit of Facial
+Processing Tools on Indian Faces."
+
+Jain, G., & Parsheera, S. (2021). 
+Cinderella's Shoe Won't Fit Soundarya: An Audit of Facial Processing Tools on Indian Faces. arXiv:2112.09326.
