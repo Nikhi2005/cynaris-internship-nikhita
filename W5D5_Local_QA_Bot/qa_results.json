@@ -1,0 +1,207 @@
+{
+    "project": "W5D5 Local Q&A Bot",
+    "created_at": "2026-11-11T18:02:51.004373",
+    "prompt_tests": [
+        {
+            "test_number": 1,
+            "test_name": "Concise Explanation",
+            "prompt_style": "concise",
+            "question": "What is machine learning?",
+            "model": "llama3.2:3b",
+            "retrieved_chunks": 3,
+            "answer": "According to the retrieved context, machine learning is a branch of AI that enables computers to learn patterns from data and use those patterns to make predictions or decisions.",
+            "response_time_seconds": 23.27,
+            "manual_review": {
+                "accuracy": null,
+                "relevance": null,
+                "clarity": null,
+                "hallucination": null,
+                "observations": ""
+            }
+        },
+        {
+            "test_number": 2,
+            "test_name": "Step-by-Step Explanation",
+            "prompt_style": "step_by_step",
+            "question": "Explain the machine learning workflow.",
+            "model": "llama3.2:3b",
+            "retrieved_chunks": 3,
+            "answer": "Here's the explanation of the machine learning workflow in clear numbered steps based on the provided context:\n\n1. **Define the problem**: Identify the task or problem you want the machine learning model to solve.\n2. **Collect data**: Gather relevant data to train the model.\n3. **Clean and prepare the data**: Clean, preprocess, and format the data for use in the model.\n4. **Select useful features**: Choose the most relevant features or variables from the data that will help the model learn.\n5. **Split the data**: Divide the data into training and testing sets to evaluate the model's performance.\n6. **Train a model**: Use the training data to train the model, adjusting its internal parameters to minimize errors.\n7. **Evaluate the model's performance**: Use the testing data to assess the model's accuracy and make any necessary adjustments.\n8. **Deploy or monitor the model**: Deploy the trained model in a production environment or continue to monitor and improve it as needed.\n\nNote that the context does not provide a detailed step-by-step guide to the machine learning workflow, but these steps cover the main stages outlined in the provided sources.",
+            "response_time_seconds": 35.86,
+            "manual_review": {
+                "accuracy": null,
+                "relevance": null,
+                "clarity": null,
+                "hallucination": null,
+                "observations": ""
+            }
+        },
+        {
+            "test_number": 3,
+            "test_name": "Bullet Point Answer",
+            "prompt_style": "bullet_points",
+            "question": "What are the important types of machine learning?",
+            "model": "llama3.2:3b",
+            "retrieved_chunks": 3,
+            "answer": "Here are the important types of machine learning based on the retrieved context:\n\n* **Supervised Learning**: This type of machine learning uses labelled training examples. Each example contains input data and a known target output.\n* **Unsupervised Learning**: This type of machine learning is not explicitly mentioned in the context. However, it can be inferred that there are other types of machine learning beyond supervised learning, but they are not specified in the provided context.\n\nNote: The context does not provide a comprehensive list of all types of machine learning, but it does mention supervised learning as one of the main types.",
+            "response_time_seconds": 24.51,
+            "manual_review": {
+                "accuracy": null,
+                "relevance": null,
+                "clarity": null,
+                "hallucination": null,
+                "observations": ""
+            }
+        },
+        {
+            "test_number": 4,
+            "test_name": "Analogy-Based Explanation",
+            "prompt_style": "analogy",
+            "question": "Explain supervised learning in simple terms.",
+            "model": "llama3.2:3b",
+            "retrieved_chunks": 3,
+            "answer": "Let me explain supervised learning in simple terms.\n\nSupervised learning is a type of machine learning where a computer model learns from examples that have already been labeled with the correct output. Think of it like teaching a child to recognize different animals.\n\nImagine you have a bunch of pictures of cats and dogs, and each picture is labeled as either \"cat\" or \"dog\". You show the pictures to the child, and for each picture, you say \"this is a cat\" or \"this is a dog\". The child learns to recognize the patterns and features of each animal, so that when they see a new picture, they can say \"this is a cat\" or \"this is a dog\" correctly.\n\nIn supervised learning, the computer model learns to recognize patterns in the data by comparing the input data (like the pictures of animals) to the labeled output (like the \"cat\" or \"dog\" labels). This way, the model can make predictions or decisions based on the patterns it has learned from the data.",
+            "response_time_seconds": 32.65,
+            "manual_review": {
+                "accuracy": null,
+                "relevance": null,
+                "clarity": null,
+                "hallucination": null,
+                "observations": ""
+            }
+        },
+        {
+            "test_number": 5,
+            "test_name": "Detailed Explanation",
+            "prompt_style": "detailed",
+            "question": "Explain the difference between supervised and unsupervised learning.",
+            "model": "llama3.2:3b",
+            "retrieved_chunks": 3,
+            "answer": "Based on the provided context, I can explain the difference between supervised and unsupervised learning.\n\nAccording to Source 2 (Page: 1), supervised learning uses labelled training examples, where each example contains input data and a known target output. This type of learning allows the model to learn a relationship between the inputs and targets, and then use that relationship to predict outputs for new examples.\n\nOn the other hand, unsupervised learning works with data that does not have labelled target outputs. The objective is to discover structure or patterns in the data. There are two types of unsupervised learning mentioned in the context: clustering and dimensionality reduction. Clustering groups similar data points together, while dimensionality reduction represents data using fewer features while attempting to preserve useful information.\n\nIn summary, the key difference between supervised and unsupervised learning is the presence or absence of labelled target outputs. Supervised learning relies on labelled data to learn patterns and make predictions, whereas unsupervised learning aims to discover patterns and structure in the data without prior knowledge of the target outputs.",
+            "response_time_seconds": 32.03,
+            "manual_review": {
+                "accuracy": null,
+                "relevance": null,
+                "clarity": null,
+                "hallucination": null,
+                "observations": ""
+            }
+        }
+    ],
+    "model_comparison": [
+        {
+            "question_number": 1,
+            "question": "What is overfitting?",
+            "model": "llama3.2:3b",
+            "retrieved_chunks": 3,
+            "answer": "According to the retrieved context, overfitting occurs when a model learns details or noise specific to its training data and performs poorly on new, unseen examples.",
+            "response_time_seconds": 17.22,
+            "manual_review": {
+                "accuracy": null,
+                "relevance": null,
+                "clarity": null,
+                "hallucination": null,
+                "observations": ""
+            }
+        },
+        {
+            "question_number": 1,
+            "question": "What is overfitting?",
+            "model": "qwen2.5:3b",
+            "retrieved_chunks": 3,
+            "answer": "Overfitting occurs when a model learns the details and noise of the training data to the extent that it negatively impacts the performance of the model to generalize from the training data to new data. This results in a model that performs poorly on new, unseen examples.",
+            "response_time_seconds": 23.79,
+            "manual_review": {
+                "accuracy": null,
+                "relevance": null,
+                "clarity": null,
+                "hallucination": null,
+                "observations": ""
+            }
+        },
+        {
+            "question_number": 2,
+            "question": "Explain the bias-variance trade-off.",
+            "model": "llama3.2:3b",
+            "retrieved_chunks": 3,
+            "answer": "The context does not explicitly explain the bias-variance trade-off. The retrieved context discusses topics such as feature transformation, one-hot encoding, model evaluation metrics, and regression metrics, but it does not mention the bias-variance trade-off.",
+            "response_time_seconds": 12.16,
+            "manual_review": {
+                "accuracy": null,
+                "relevance": null,
+                "clarity": null,
+                "hallucination": null,
+                "observations": ""
+            }
+        },
+        {
+            "question_number": 2,
+            "question": "Explain the bias-variance trade-off.",
+            "model": "qwen2.5:3b",
+            "retrieved_chunks": 3,
+            "answer": "The context provided does not contain information about the bias-variance trade-off. Therefore, I do not have enough information to answer the user's question.",
+            "response_time_seconds": 10.37,
+            "manual_review": {
+                "accuracy": null,
+                "relevance": null,
+                "clarity": null,
+                "hallucination": null,
+                "observations": ""
+            }
+        },
+        {
+            "question_number": 3,
+            "question": "How does the k-nearest neighbors algorithm work?",
+            "model": "llama3.2:3b",
+            "retrieved_chunks": 3,
+            "answer": "The context does not contain information about the k-nearest neighbors algorithm. The retrieved context only provides information about machine learning, neural networks, and types of machine learning (supervised, unsupervised, and classification/regression), but does not mention the k-nearest neighbors algorithm.",
+            "response_time_seconds": 16.98,
+            "manual_review": {
+                "accuracy": null,
+                "relevance": null,
+                "clarity": null,
+                "hallucination": null,
+                "observations": ""
+            }
+        },
+        {
+            "question_number": 3,
+            "question": "How does the k-nearest neighbors algorithm work?",
+            "model": "qwen2.5:3b",
+            "retrieved_chunks": 3,
+            "answer": "The context provided does not contain information about how the k-nearest neighbors algorithm works. Therefore, I do not have enough information to answer the user's question.",
+            "response_time_seconds": 14.4,
+            "manual_review": {
+                "accuracy": null,
+                "relevance": null,
+                "clarity": null,
+                "hallucination": null,
+                "observations": ""
+            }
+        }
+    ],
+    "interactive_questions": [
+        {
+            "question": "What is the difference between supervised and unsupervised learning?",
+            "model": "llama3.2:3b",
+            "retrieved_chunks": 3,
+            "answer": "According to the retrieved context, the difference between supervised and unsupervised learning can be found in the following:\n\nSupervised learning uses labelled training examples. Each example contains input data and a known target output.\n\nUnsupervised learning, on the other hand, works with data that does not have labelled target outputs. The objective is to discover structure or patterns in the data.",
+            "response_time_seconds": 25.88
+        },
+        {
+            "question": "Explain the machine learning workflow.",
+            "model": "llama3.2:3b",
+            "retrieved_chunks": 3,
+            "answer": "According to Source 1 (Page: 1), a typical machine-learning workflow includes the following steps:\n\n1. Defining the problem\n2. Collecting data\n3. Cleaning and preparing the data\n4. Selecting useful features\n5. Splitting the data\n6. Training a model\n7. Evaluating its performance\n8. Deploying or monitoring the model.\n\nThis workflow is described as a general process for machine learning, and it is not specific to any particular type of machine learning, such as supervised learning.",
+            "response_time_seconds": 19.78
+        },
+        {
+            "question": "Explain supervised learning.",
+            "model": "llama3.2:3b",
+            "retrieved_chunks": 3,
+            "answer": "According to Source 1 (Page: 3), Supervised learning uses labelled training examples. Each example contains input data and a known target output.",
+            "response_time_seconds": 20.15
+        }
+    ],
+    "last_updated": "2026-11-11T18:31:15.662735"
+}
