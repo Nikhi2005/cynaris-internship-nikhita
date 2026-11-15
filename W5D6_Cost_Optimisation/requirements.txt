@@ -1,0 +1,11 @@
+
+tiktoken
+redis
+numpy
+requests
+chromadb
+openpyxl
+llmlingua
+torch
+transformers
+accelerate

@@ -1,0 +1,73 @@
+{
+  "token_counting": [
+    {
+      "words": 25,
+      "characters": 247,
+      "tokens": 38
+    },
+    {
+      "words": 100,
+      "characters": 812,
+      "tokens": 131
+    },
+    {
+      "words": 250,
+      "characters": 1965,
+      "tokens": 317
+    },
+    {
+      "words": 500,
+      "characters": 3876,
+      "tokens": 627
+    },
+    {
+      "words": 1000,
+      "characters": 7699,
+      "tokens": 1248
+    }
+  ],
+  "llmlingua_compression": {
+    "status": "completed",
+    "original_tokens": 2000,
+    "compressed_tokens": 737,
+    "reduction_percent": 63.15,
+    "original_output_tokens": 91,
+    "compressed_output_tokens": 93,
+    "original_answer": "According to the context, the main stages of a machine-learning workflow are:\n\n1. Defining the problem\n2. Collecting data\n3. Cleaning and preparing the data\n4. Selecting useful features\n5. Splitting the data\n6. Training a model\n7. Evaluating the model's performance\n8. Deploying or monitoring the model\n\nThese stages are mentioned in the context as part of a typical machine-learning workflow.",
+    "compressed_answer": "According to the provided context, the main stages of a machine-learning workflow are:\n\n1. Defining the problem\n2. Collecting data\n3. Cleaning\n4. Selecting features\n5. Splitting data\n6. Training\n7. Evaluating performance\n8. Model selection\n\nNote that the context does not provide a comprehensive list of all possible stages of a machine-learning workflow, but rather highlights the main stages mentioned in the provided text."
+  },
+  "semantic_cache": {
+    "pairs_stored": 20,
+    "threshold": 0.92,
+    "test_query": "What is machine learning?",
+    "lookup_result": {
+      "cache_hit": true,
+      "similarity": 1.0,
+      "matched_question": "What is machine learning?",
+      "answer": "Machine learning enables systems to learn patterns from data."
+    }
+  },
+  "model_routing": [
+    {
+      "query": "What is a Python list?",
+      "route": "llama3.2:3b",
+      "reason": "Use the local Llama model for a straightforward question."
+    },
+    {
+      "query": "Explain the machine-learning workflow.",
+      "route": "qwen2.5:3b",
+      "reason": "Use the local Qwen model for a structured explanation."
+    },
+    {
+      "query": "Critically analyse the limitations of this research method.",
+      "route": "Cloud API (proposed only)",
+      "reason": "Complex reasoning may benefit from a stronger model. No cloud API call is made in this practical."
+    }
+  ],
+  "pricing_assumptions": {
+    "input_usd_per_million": 5.0,
+    "output_usd_per_million": 15.0,
+    "usd_to_inr": 82.0,
+    "note": "Estimated GPT-4o-equivalent costs only. Local Ollama inference is not billed per token."
+  }
+}
