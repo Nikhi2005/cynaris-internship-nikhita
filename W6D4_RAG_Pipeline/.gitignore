@@ -1,0 +1,6 @@
+@"
+chroma_db/
+pdf_chroma_db/
+__pycache__/
+*.pyc
+"@ | Set-Content "W6D4_RAG_Pipeline\.gitignore"
