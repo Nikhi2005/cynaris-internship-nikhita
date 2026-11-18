@@ -1,0 +1,10 @@
+
+# ChromaDB generated files
+chroma_db/
+
+# Conversation history generated during execution
+conversation_history.json
+
+# Python cache
+__pycache__/
+*.pyc
