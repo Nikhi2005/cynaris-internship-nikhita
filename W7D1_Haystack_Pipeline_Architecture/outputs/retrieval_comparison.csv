@@ -1,0 +1,32 @@
+﻿method,query_id,question,retrieved_documents,relevant_documents,relevant_count,precision_at_3,reader_answer
+BM25,Q1,What is the minimum and maximum applicant age?,02_eligibility_and_underwriting | 03_premium_and_payment | 01_policy_overview,02_eligibility_and_underwriting,1,0.3333,18 years old
+BM25,Q2,Which documents are required before an insurance application can be accepted?,02_eligibility_and_underwriting | 05_exclusions_renewal_and_cancellation | 04_claims_and_settlement,02_eligibility_and_underwriting,1,0.3333,"a completed proposal form, a valid KYC identity document, proof of
+age, address proof, and any additional medical or financial information requested during underwriting"
+BM25,Q3,What details should a premium payment receipt contain?,03_premium_and_payment | 05_exclusions_renewal_and_cancellation | 01_policy_overview,03_premium_and_payment,1,0.3333,"payer details, amount, payment date, payment mode, and transaction
+reference"
+BM25,Q4,What grace period applies to monthly and annual premium payments?,03_premium_and_payment | 05_exclusions_renewal_and_cancellation | 01_policy_overview,03_premium_and_payment,1,0.3333,"
+15-day"
+BM25,Q5,How should a nominee notify the insurer about a claim?,04_claims_and_settlement | 02_eligibility_and_underwriting | 01_policy_overview,04_claims_and_settlement,1,0.3333,as soon as reasonably possible after the insured event
+BM25,Q6,Which documents may be requested during claim settlement?,04_claims_and_settlement | 02_eligibility_and_underwriting | 05_exclusions_renewal_and_cancellation,04_claims_and_settlement,1,0.3333,"payment of overdue premiums, interest or charges where permitted, and updated
+health or other declarations"
+BM25,Q7,Who receives policy proceeds when the insured event occurs?,01_policy_overview | 04_claims_and_settlement | 05_exclusions_renewal_and_cancellation,01_policy_overview | 04_claims_and_settlement,2,0.6667,the nominee
+BM25,Q8,How long is the free-look cancellation period?,05_exclusions_renewal_and_cancellation | 01_policy_overview | 04_claims_and_settlement,01_policy_overview,1,0.3333,30 days
+BM25,Q9,What can happen if premiums are unpaid and how can a lapsed policy be revived?,05_exclusions_renewal_and_cancellation | 04_claims_and_settlement | 03_premium_and_payment,03_premium_and_payment | 05_exclusions_renewal_and_cancellation,2,0.6667,"payment of outstanding premiums and additional
+evidence"
+BM25,Q10,Which application records should have matching name and date of birth?,02_eligibility_and_underwriting | 05_exclusions_renewal_and_cancellation | 03_premium_and_payment,02_eligibility_and_underwriting,1,0.3333,"proposal form, KYC document, proof of
+age"
+DENSE,Q1,What is the minimum and maximum applicant age?,02_eligibility_and_underwriting | 01_policy_overview | 03_premium_and_payment,02_eligibility_and_underwriting,1,0.3333,18 years old
+DENSE,Q2,Which documents are required before an insurance application can be accepted?,02_eligibility_and_underwriting | 04_claims_and_settlement | 01_policy_overview,02_eligibility_and_underwriting,1,0.3333,"a completed proposal form, a valid KYC identity document, proof of
+age, address proof, and any additional medical or financial information requested during underwriting"
+DENSE,Q3,What details should a premium payment receipt contain?,03_premium_and_payment | 04_claims_and_settlement | 05_exclusions_renewal_and_cancellation,03_premium_and_payment,1,0.3333,"payer details, amount, payment date, payment mode, and transaction
+reference"
+DENSE,Q4,What grace period applies to monthly and annual premium payments?,03_premium_and_payment | 05_exclusions_renewal_and_cancellation | 01_policy_overview,03_premium_and_payment,1,0.3333,"
+15-day"
+DENSE,Q5,How should a nominee notify the insurer about a claim?,04_claims_and_settlement | 02_eligibility_and_underwriting | 01_policy_overview,04_claims_and_settlement,1,0.3333,as soon as reasonably possible after the insured event
+DENSE,Q6,Which documents may be requested during claim settlement?,04_claims_and_settlement | 02_eligibility_and_underwriting | 03_premium_and_payment,04_claims_and_settlement,1,0.3333,date of birth and identity
+DENSE,Q7,Who receives policy proceeds when the insured event occurs?,04_claims_and_settlement | 01_policy_overview | 03_premium_and_payment,01_policy_overview | 04_claims_and_settlement,2,0.6667,the nominee
+DENSE,Q8,How long is the free-look cancellation period?,05_exclusions_renewal_and_cancellation | 03_premium_and_payment | 01_policy_overview,01_policy_overview,1,0.3333,30 days
+DENSE,Q9,What can happen if premiums are unpaid and how can a lapsed policy be revived?,05_exclusions_renewal_and_cancellation | 03_premium_and_payment | 01_policy_overview,03_premium_and_payment | 05_exclusions_renewal_and_cancellation,2,0.6667,"payment of outstanding premiums and additional
+evidence"
+DENSE,Q10,Which application records should have matching name and date of birth?,02_eligibility_and_underwriting | 04_claims_and_settlement | 01_policy_overview,02_eligibility_and_underwriting,1,0.3333,"proposal form, KYC document, proof of
+age"
