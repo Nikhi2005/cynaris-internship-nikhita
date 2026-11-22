@@ -1,0 +1,11 @@
+Q_ID,Query,Memory_Top_Doc,Memory_Score,Memory_Lat_ms,Chroma_Top_Doc,Chroma_Score,Chroma_Lat_ms
+Q1,What is the core objective of the CrewAI framework?,crewai_guide.txt,0.6271,4.21,crewai_guide.txt,0.6271,0.4
+Q2,Explain how LangGraph handles state transitions.,langgraph_workflow.txt,0.4914,0.25,langgraph_workflow.txt,0.4914,0.34
+Q3,What are the three stages of an MLflow run?,mlops_pipeline.txt,0.4916,0.25,mlops_pipeline.txt,0.4916,0.33
+Q4,Give an example of a Ragas metric for factual correctness.,ragas_evaluation.txt,0.6247,0.25,ragas_evaluation.txt,0.6247,0.32
+Q5,How do I register a new model version in MLflow?,mlops_pipeline.txt,0.4728,0.23,mlops_pipeline.txt,0.4728,0.33
+Q6,What does the term 'prompt engineering' mean in LLM ops?,langgraph_workflow.txt,0.2793,0.24,langgraph_workflow.txt,0.2793,0.33
+Q7,List the steps to set up a CI/CD pipeline for a LlamaIndex project.,langgraph_workflow.txt,0.2752,0.24,langgraph_workflow.txt,0.2752,0.34
+Q8,Which ChromaDB indexing algorithm provides the best recall?,chromadb_vectorstore.txt,0.6466,0.24,chromadb_vectorstore.txt,0.6466,0.33
+Q9,Show a code snippet to load a PDF with LlamaIndex.,ragas_evaluation.txt,0.1075,0.27,ragas_evaluation.txt,0.1075,0.34
+Q10,What are the security considerations when exposing an LLM endpoint?,langgraph_workflow.txt,0.2129,0.24,langgraph_workflow.txt,0.2129,0.33
