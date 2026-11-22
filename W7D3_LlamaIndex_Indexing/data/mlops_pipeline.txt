@@ -1,0 +1,1 @@
+MLOps practices cover continuous integration, model monitoring, automated retraining pipelines, and data drift detection using MLflow.

@@ -1,0 +1,1 @@
+ChromaDB is an open-source vector database designed for embedding storage, fast ANN similarity search, metadata filtering, and persistent indexing.
