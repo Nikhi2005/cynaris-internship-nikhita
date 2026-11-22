@@ -1,0 +1,1 @@
+MLOps pipelines manage model registry versions, automated retraining, continuous deployment, MLflow tracking, and data drift detection.
