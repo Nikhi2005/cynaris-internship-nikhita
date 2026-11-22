@@ -1,0 +1,1 @@
+CrewAI is a framework for orchestrating autonomous AI agents. It enables multi-agent collaboration for complex task automation and reasoning.

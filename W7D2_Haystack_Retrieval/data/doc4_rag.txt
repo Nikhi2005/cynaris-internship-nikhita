@@ -1,0 +1,1 @@
+Retrieval Augmented Generation combines vector retrieval with generative models to answer user questions grounded in private documents.
