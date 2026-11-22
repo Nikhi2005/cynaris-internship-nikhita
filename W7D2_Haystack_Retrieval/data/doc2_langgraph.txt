@@ -1,0 +1,1 @@
+LangGraph is built for constructing stateful multi-agent workflows with loops and conditional logic in LLM applications.

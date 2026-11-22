@@ -1,0 +1,1 @@
+Haystack is an open-source NLP framework by Deepset for building search systems, QA pipelines, BM25 indexing, and vector dense retrieval.

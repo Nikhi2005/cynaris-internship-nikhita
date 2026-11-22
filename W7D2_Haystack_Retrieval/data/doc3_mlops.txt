@@ -1,0 +1,1 @@
+MLOps focuses on continuous integration, deployment, model monitoring, data drift detection, and automated retraining pipelines.

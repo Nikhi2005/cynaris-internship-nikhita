@@ -1,0 +1,11 @@
+Q_ID,Question,BM25_Top_Doc,BM25_Score,BM25_Latency_ms,Dense_Top_Doc,Dense_Score,Dense_Latency_ms
+Q1,What is the purpose of the CrewAI library?,doc1_crewai.txt,2.0,0.05,doc1_crewai.txt,0.4367,12.3
+Q2,Explain the role of LangGraph in an LLM workflow.,doc2_langgraph.txt,3.0,0.04,doc2_langgraph.txt,0.5878,9.42
+Q3,How does MLOps differ from traditional ML deployment?,doc3_mlops.txt,1.0,0.04,doc3_mlops.txt,0.7005,11.3
+Q4,What are the main components of a RAG system?,doc1_crewai.txt,1.0,0.05,doc2_langgraph.txt,0.0774,9.76
+Q5,Give an example of a data drift detection technique.,doc3_mlops.txt,2.0,0.04,doc3_mlops.txt,0.2646,6.63
+Q6,How to fine-tune a transformer for sentiment analysis?,doc1_crewai.txt,2.0,0.03,doc5_haystack.txt,0.2799,8.06
+Q7,What is the difference between recall and precision?,doc1_crewai.txt,2.0,0.04,doc4_rag.txt,0.1211,9.39
+Q8,Describe how vector search works in Haystack.,doc4_rag.txt,2.0,0.04,doc5_haystack.txt,0.531,9.21
+Q9,What does autonomous AI agent orchestration mean?,doc1_crewai.txt,2.0,0.04,doc1_crewai.txt,0.7122,8.22
+Q10,List advantages of using dense vector retrieval.,doc5_haystack.txt,3.0,0.04,doc4_rag.txt,0.407,9.28
