@@ -1,0 +1,11 @@
+Q_ID,Query,Expected_Domain,Routed_Domain,Routing_Match,Context_Precision,Faithfulness,Latency_ms
+Q1,What are the legal GDPR compliance requirements for data privacy?,legal,legal,True,0.784,0.9598,173.31
+Q2,Explain how EBITDA margins and revenue forecasting are calculated.,finance,finance,True,0.5469,0.9266,44.19
+Q3,How does MLflow track model registry versions and automated retraining?,mlops,mlops,True,0.7626,0.9568,128.53
+Q4,What are the non-disclosure agreements and IP protection rules?,legal,legal,True,0.6229,0.9372,40.93
+Q5,Describe annual budget allocations and COGS auditing.,finance,finance,True,0.6577,0.9421,143.72
+Q6,What is data drift detection in automated deployment pipelines?,mlops,mlops,True,0.6502,0.941,46.02
+Q7,Summarize financial audit trails and cost management.,finance,finance,True,0.595,0.9333,157.57
+Q8,What enterprise legal policies apply to data transmission?,legal,legal,True,0.6486,0.9408,36.56
+Q9,How do continuous integration pipelines function in MLOps?,mlops,mlops,True,0.651,0.9411,155.1
+Q10,Outline the cross-domain compliance and financial governance rules.,legal,legal,True,0.4245,0.9094,35.98
