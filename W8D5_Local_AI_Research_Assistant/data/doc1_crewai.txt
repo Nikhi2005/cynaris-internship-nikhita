@@ -1,0 +1,1 @@
+CrewAI enables autonomous AI agent orchestration, task delegation, and role-based multi-agent execution loops.

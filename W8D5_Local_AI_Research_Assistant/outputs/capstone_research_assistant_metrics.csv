@@ -1,0 +1,5 @@
+Run_ID,Query,Matched_Doc,Search_Precision,Faithfulness,Citation_Recall,Overall_Quality,Latency_ms
+RUN_01,How does CrewAI handle autonomous multi-agent task delegation?,doc1_crewai.txt,0.8248,1.0,0.0,0.7474,21.25
+RUN_02,Explain the role of LangGraph in stateful cyclical workflows.,doc2_langgraph.txt,0.6595,0.8795,0.0,0.6376,22.37
+RUN_03,How do MLflow and MLOps track experiment metrics and parameters?,doc3_mlflow.txt,0.8002,1.0,0.0,0.7401,21.71
+RUN_04,What core metrics does Ragas evaluate in production RAG systems?,doc4_ragas.txt,0.6684,0.8884,0.0,0.6447,21.37
