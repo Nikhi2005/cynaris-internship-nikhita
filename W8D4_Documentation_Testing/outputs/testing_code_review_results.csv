@@ -1,0 +1,4 @@
+Test_Name,Type,Status,Threshold
+test_unit_vector_search_valid,Unit,PASS,Score > 0.5
+test_unit_vector_search_invalid_params,Unit,PASS,ValueError Raised
+test_integration_ragas_metric_thresholds,Integration,PASS,Faithfulness >= 0.75
