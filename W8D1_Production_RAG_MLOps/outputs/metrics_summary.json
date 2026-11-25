@@ -1,0 +1,9 @@
+{
+  "api_health": "PASS",
+  "total_tests": 4,
+  "avg_confidence": 0.7002,
+  "avg_faithfulness": 0.9473,
+  "avg_latency_ms": 17.07,
+  "docker_build_status": "SUCCESS",
+  "ci_pipeline_status": "READY"
+}
