@@ -1,0 +1,1 @@
+MLOps practices cover automated retraining, model monitoring, MLflow tracking, and data drift detection.

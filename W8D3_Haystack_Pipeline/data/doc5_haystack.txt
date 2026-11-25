@@ -1,0 +1,1 @@
+Haystack is an open-source NLP search framework supporting BM25 indexing and dense vector retrieval.
