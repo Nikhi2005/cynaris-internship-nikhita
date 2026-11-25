@@ -1,0 +1,1 @@
+Ragas evaluates RAG pipelines across core metrics including faithfulness, context precision, context recall, and answer relevancy.

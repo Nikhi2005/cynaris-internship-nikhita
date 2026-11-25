@@ -1,0 +1,9 @@
+{
+  "experiment": "LocalAI_Research_Assistant",
+  "total_runs": 4,
+  "avg_search_precision": 0.7382,
+  "avg_faithfulness": 0.942,
+  "avg_citation_recall": 0.0,
+  "avg_overall_quality": 0.6924,
+  "avg_latency_ms": 21.68
+}
